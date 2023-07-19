@@ -1,7 +1,7 @@
 
 
-.body {
-	background-image: url('https://postimg.cc/w1wfpjPz');
+body {
+	background-image: url('https://i.postimg.cc/FK420fVY/cielo-azul-fondo-nubes-cumulos-concepto-naturaleza-fondos-meteorologicos-atmosfera-289152-2320.jpg');
 	background-size: cover;
 	background-position: center;
 	font-family: Arial, sans-serif;
@@ -10,37 +10,36 @@
 .contenedor {
 	margin: 50px auto;
 	padding: 20px;
-	background-color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(68, 212, 223, 0.8);
 	border-radius: 10px;
 	max-width: 600px;
 }
 
-.h1 {
+h1 {
 	text-align: center;
 }
 
-.table {
-	margin: 0 auto;
-}
 
-.td {
-	padding: 10px;
-	text-align: center;
-}
-
-.th {
-	background-color: #6cb4f7;
-}
-
-#temperatura {
+.temperatura {
 	font-size: 48px;
 	font-weight: bold;
 }
 
-#sensacion {
+.sensacion {
 	font-size: 24px;
 }
 
-#estado {
+.estado {
 	font-size: 24px;
+}
+.cuadro{
+	width: 300px;
+	height: 300px;
+	background-color: white;
+}
+#info{
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	justify-content: space-evenly;
 }
