@@ -1,18 +1,39 @@
-
 <html>
+
 <head>
-	<title>Clima en Asunción</title>
+	<title>Clima en Fram</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-  <script src="script.js"></script>
+	<script src="script.js" defer></script>
 </head>
+
 <body>
 	<div class="contenedor">
 		<h1>Clima en Fram</h1>
 		<div id="info">
-			<div class="cuadro"></div>
-			<div class="cuadro"></div>
-			<div class="cuadro"></div>
+			<div id="Caja1" class="cuadro">
+				<img src="https://i.pinimg.com/originals/21/bc/4d/21bc4d2f2d06e903221b24adcf516aca.jpg">
+				<h3>Temperatura</h3>
+				<p id="temperatura"></p>
+				<div class="minmax">
+					<span id="min"></span>
+					<span id="max"></span>
+
+				</div>
+			</div>
+			<div id="Caja2" class="cuadro">
+				<img
+					src="https://img.freepik.com/vector-premium/viento-aire-pronostico-tiempo-icono-3d-elemento-diseno-naturaleza-plastilina_313242-1369.jpg">
+				<h3>Veloc. del Viento</h3>
+				<p id="viento"></p>
+			</div>
+			<div id="Caja3" class="cuadro">
+				<img src="" id="clima">
+				<h3>Estado del clima</h3>
+				<p id="estado"></p>
+
+			</div>
 		</div>
 	</div>
 </body>
+
 </html>
